@@ -15,13 +15,18 @@ def template_method(action):
 def action_a():
     # For example predicting via KNN
     print('Running action A')
+    return 'A'
 
 
 def action_b():
     # For example predicting via Logistics Regression
     print('Running action B')
+    return 'B'
 
 
 # Example usage
-result_a = template_method(action_a)
-result_b = template_method(action_b)
+print()
+print(f'Result of action_a = {template_method(action_a)}')
+
+print()
+print(f'Result of action_b = {template_method(action_b)}')

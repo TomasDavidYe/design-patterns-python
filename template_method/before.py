@@ -8,6 +8,8 @@ def action_a():
     # For example closing connection to DB  calculating model predictions
     print('Tearing down...')
 
+    return 'A'
+
 
 def action_b():
     # For example pulling data from DB and preparing model features...
@@ -19,7 +21,12 @@ def action_b():
     # For example closing connection to DB  calculating model predictions
     print('Tearing down...')
 
+    return 'B'
+
 
 # Example usage
-result_a = action_a()
-result_b = action_b()
+print()
+print(f'Result of action_a = {action_a()}')
+
+print()
+print(f'Result of action_b = {action_b()}')
