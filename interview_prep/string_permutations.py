@@ -11,9 +11,3 @@ def permutations_with_prefix(prefix, remaining):
         for index, char in enumerate(remaining):
             permutations_with_prefix(prefix + char, remaining[:index] + remaining[index + 1:])
 
-
-
-
-
-
-permutations('abcde')
