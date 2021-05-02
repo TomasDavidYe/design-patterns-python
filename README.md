@@ -1,5 +1,5 @@
 ## About the Package
-You will fin
+In this package, you will find a list of object oriented design patterns that I have found particularly useful together with an article about how to use them and code examples in Python
 
 
 ## List of Patterns
