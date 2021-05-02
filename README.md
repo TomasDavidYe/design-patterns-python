@@ -10,4 +10,5 @@ If so, then this pattern is for you.
 
 
 **ARTICLE** -> https://betterprogramming.pub/the-template-method-pattern-in-python-72b7d6e95c96
+
 **CODE** -> https://github.com/TomasDavidYe/design-patterns-python/tree/master/template_method
